@@ -1,0 +1,47 @@
+{
+  "name": "@tdduydev/react-native-input-blur",
+  "version": "1.0.0",
+  "description": "TODO",
+  "readmeFilename": "README.md",
+  "files": [
+    "README.md",
+    "android",
+    "index.js",
+    "ios"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdduydev/react-native-input-blur.git",
+    "baseUrl": "https://github.com/tdduydev/react-native-input-blur"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "DUY TRAN",
+    "email": "tdduy.dev@gmail.com"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "react-native": "index.js",
+  "source": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@react-native-community/blur": "https://github.com/tdduydev/react-native-blur.git",
+    "react-native-linear-gradient": "^2.5.6",
+    "@tdduydev/rn-base-component": "https://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@github.com/tdduydev/rn-base-component.git"
+  },
+  "devDependencies": {
+    "react": "17.0.2",
+    "react-native": "0.67.2"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
