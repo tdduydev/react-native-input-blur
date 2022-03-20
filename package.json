@@ -31,7 +31,7 @@
   "dependencies": {
     "@react-native-community/blur": "https://github.com/tdduydev/react-native-blur.git",
     "react-native-linear-gradient": "^2.5.6",
-    "@tdduydev/rn-base-component": "https://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@github.com/tdduydev/rn-base-component.git"
+    "@tdduydev/rn-base-component": "https://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@github.com/tdduydev/rn-base-component.git"
   },
   "devDependencies": {
     "react": "17.0.2",
