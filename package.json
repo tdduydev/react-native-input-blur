@@ -1,7 +1,8 @@
 {
   "name": "@tdduydev/react-native-input-blur",
   "version": "1.0.0",
-  "description": "TODO",
+  "private": false,
+  "description": "React Native Blur component",
   "readmeFilename": "README.md",
   "files": [
     "README.md",
@@ -31,7 +32,7 @@
   "dependencies": {
     "@react-native-community/blur": "https://github.com/tdduydev/react-native-blur.git",
     "react-native-linear-gradient": "^2.5.6",
-    "@tdduydev/rn-base-component": "https://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@github.com/tdduydev/rn-base-component.git"
+    "@tdduydev/rn-base-component": "https://github.com/tdduydev/rn-base-component.git"
   },
   "devDependencies": {
     "react": "17.0.2",
