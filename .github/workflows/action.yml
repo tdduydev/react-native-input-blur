@@ -14,11 +14,9 @@ jobs:
         with:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
-      #           scope: '@tdduydev'
-      - name: npmrcgen
-        run: |
+      - run: |
           echo "//npm.pkg.github.com/:_authToken=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" > .npmrc
-          echo "always-auth=true" >> .npmrc
+          echo "@tdduydev:registry=https://npm.pkg.github.com/" >> .npmrc
       - run: npm install
       - run: npm publish
         env:
