@@ -19,7 +19,7 @@ jobs:
           echo "@tdduydev:registry=https://npm.pkg.github.com/"
           echo "cat .npmrc"
           cat .npmrc
-      - run: npm install
+          npm install
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.MY_GITHUB_TOKEN}}
