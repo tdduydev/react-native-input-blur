@@ -14,9 +14,9 @@ jobs:
         with:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
-      - run: |
-          echo "//npm.pkg.github.com/:_authToken=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" >> ~/.npmrc
-          echo "@tdduydev:registry=https://npm.pkg.github.com/" >> .npmrc
+      # - run: |
+      #     echo "//npm.pkg.github.com/:_authToken=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" >> ~/.npmrc
+      #     echo "@tdduydev:registry=https://npm.pkg.github.com/" >> .npmrc
       - run: npm install
       - run: npm publish
         env:

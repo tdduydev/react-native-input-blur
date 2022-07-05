@@ -1,11 +1,11 @@
 {
   "name": "@tdduydev/react-native-input-blur",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "React Native Blur component",
   "readmeFilename": "README.md",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@tdduydev"
+    "registry": "https://npm.pkg.github.com"
   },
   "files": [
     "README.md",
