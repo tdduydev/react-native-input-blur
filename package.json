@@ -33,9 +33,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@react-native-community/blur": "https://github.com/tdduydev/react-native-blur.git",
+    "@react-native-community/blur": "^3.6.0",
     "react-native-linear-gradient": "^2.5.6",
-    "@tdduydev/rn-base-component": "https://github.com/tdduydev/rn-base-component.git"
+    "@tdduydev/rn-base-component": "1.0.1"
   },
   "devDependencies": {
     "react": "17.0.2",
