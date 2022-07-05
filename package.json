@@ -4,6 +4,9 @@
   "private": false,
   "description": "React Native Blur component",
   "readmeFilename": "README.md",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@tdduydev"
+  },
   "files": [
     "README.md",
     "android",
