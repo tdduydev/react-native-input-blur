@@ -15,11 +15,11 @@ jobs:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
       - run: |
-          echo "//npm.pkg.github.com/:_authToken=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" >> .npmrc
+          echo "//npm.pkg.github.com/:_authToken=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" > .npmrc
           echo "@tdduydev:registry=https://npm.pkg.github.com/"
+          echo "cat .npmrc"
           cat .npmrc
       - run: npm install
       - run: npm publish
         env:
-          NPM_CONFIG_USERCONFIG: .npmrc
           NODE_AUTH_TOKEN: ${{secrets.MY_GITHUB_TOKEN}}
