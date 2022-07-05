@@ -1,2 +1,1 @@
-always-auth=true
-//registry.npmjs.org/:_authToken=${NPM_TOKEN}
+@tdduydev:registry=https://npm.pkg.github.com/
