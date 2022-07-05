@@ -17,7 +17,9 @@ jobs:
       - run: |
           echo "//npm.pkg.github.com/:_authToken=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" >> .npmrc
           echo "@tdduydev:registry=https://npm.pkg.github.com/"
+          cat .npmrc
       - run: npm install
       - run: npm publish
         env:
+          NPM_CONFIG_USERCONFIG: .npmrc
           NODE_AUTH_TOKEN: ${{secrets.MY_GITHUB_TOKEN}}
